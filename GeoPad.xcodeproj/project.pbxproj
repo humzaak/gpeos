@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4709EBFB16BF5A4A00CF9D97 /* ResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709EBF916BF5A4A00CF9D97 /* ResultsViewController.m */; };
+		4709EBFC16BF5A4A00CF9D97 /* ResultsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4709EBFA16BF5A4A00CF9D97 /* ResultsViewController.xib */; };
+		4709EBFF16BF5A7700CF9D97 /* BluePushpin.png in Resources */ = {isa = PBXBuildFile; fileRef = 4709EBFE16BF5A7700CF9D97 /* BluePushpin.png */; };
+		4709EC0216BF69C600CF9D97 /* WebMercatorUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4709EC0116BF69C600CF9D97 /* WebMercatorUtil.m */; };
+		4709EC0416BFB99500CF9D97 /* sqbluebutton.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4709EC0316BFB99500CF9D97 /* sqbluebutton.jpeg */; };
+		47102EDD17409C76004509C8 /* DescriptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47102EDB17409C76004509C8 /* DescriptionViewController.m */; };
+		47102EDE17409C76004509C8 /* DescriptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47102EDC17409C76004509C8 /* DescriptionViewController.xib */; };
+		47182E14170A8BD30017B375 /* GeoPadLogo1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 47182E10170A8BD30017B375 /* GeoPadLogo1024.png */; };
+		47182E15170A8BD30017B375 /* GeoPadLogo512.png in Resources */ = {isa = PBXBuildFile; fileRef = 47182E11170A8BD30017B375 /* GeoPadLogo512.png */; };
+		47182E1F170AA1320017B375 /* GeoPad-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 47182E1E170AA1320017B375 /* GeoPad-Portrait~ipad.png */; };
+		471EAE1616D1D4A600D025D0 /* NibCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE1516D1D4A600D025D0 /* NibCell.xib */; };
+		471EAE3416D23B5400D025D0 /* BingAerial.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2016D23B5400D025D0 /* BingAerial.png */; };
+		471EAE3516D23B5400D025D0 /* BingHybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2116D23B5400D025D0 /* BingHybrid.png */; };
+		471EAE3616D23B5400D025D0 /* BingStreet.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2216D23B5400D025D0 /* BingStreet.png */; };
+		471EAE3716D23B5400D025D0 /* DeLorme.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2316D23B5400D025D0 /* DeLorme.png */; };
+		471EAE3816D23B5400D025D0 /* ESRI_Imagery.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2416D23B5400D025D0 /* ESRI_Imagery.png */; };
+		471EAE3916D23B5400D025D0 /* Esri_Ocean.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2516D23B5400D025D0 /* Esri_Ocean.png */; };
+		471EAE3A16D23B5400D025D0 /* ESRI_Physical.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2616D23B5400D025D0 /* ESRI_Physical.png */; };
+		471EAE3B16D23B5400D025D0 /* ESRI_ShadedRelief.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2716D23B5400D025D0 /* ESRI_ShadedRelief.png */; };
+		471EAE3C16D23B5400D025D0 /* ESRI_Street.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2816D23B5400D025D0 /* ESRI_Street.png */; };
+		471EAE3D16D23B5400D025D0 /* ESRI_Terrain.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2916D23B5400D025D0 /* ESRI_Terrain.png */; };
+		471EAE3E16D23B5400D025D0 /* ESRI_Topography.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2A16D23B5400D025D0 /* ESRI_Topography.png */; };
+		471EAE3F16D23B5400D025D0 /* GoogleHybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2B16D23B5400D025D0 /* GoogleHybrid.png */; };
+		471EAE4016D23B5400D025D0 /* GoogleRoad.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2C16D23B5400D025D0 /* GoogleRoad.png */; };
+		471EAE4116D23B5400D025D0 /* GoogleSatellite.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2D16D23B5400D025D0 /* GoogleSatellite.png */; };
+		471EAE4216D23B5400D025D0 /* GoogleTerrain.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2E16D23B5400D025D0 /* GoogleTerrain.png */; };
+		471EAE4316D23B5400D025D0 /* GoogleTerrainHybrid.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE2F16D23B5400D025D0 /* GoogleTerrainHybrid.png */; };
+		471EAE4416D23B5400D025D0 /* NatGeo.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE3016D23B5400D025D0 /* NatGeo.png */; };
+		471EAE4516D23B5400D025D0 /* OSM_Mapnik.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE3116D23B5400D025D0 /* OSM_Mapnik.png */; };
+		471EAE4616D23B5400D025D0 /* OSM_Noname.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE3216D23B5400D025D0 /* OSM_Noname.png */; };
+		471EAE4716D23B5400D025D0 /* OSM_Osmarender.png in Resources */ = {isa = PBXBuildFile; fileRef = 471EAE3316D23B5400D025D0 /* OSM_Osmarender.png */; };
+		47384BEC1743803100DB2730 /* GeoPadLogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 47384BEB1743803000DB2730 /* GeoPadLogo.png */; };
+		4738F3F9172F965F007A6B83 /* AboutGeoPad.m in Sources */ = {isa = PBXBuildFile; fileRef = 4738F3F7172F965F007A6B83 /* AboutGeoPad.m */; };
+		4738F3FA172F965F007A6B83 /* AboutGeoPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4738F3F8172F965F007A6B83 /* AboutGeoPad.xib */; };
+		4738F3FC172FC309007A6B83 /* GeoPad-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4738F3FB172FC309007A6B83 /* GeoPad-Portrait@2x~ipad.png */; };
+		4738F3FF172FC378007A6B83 /* GeoPad-Landscape@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4738F3FE172FC378007A6B83 /* GeoPad-Landscape@2x~ipad.png */; };
+		4738F403172FC7FA007A6B83 /* GeoPad-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 4738F402172FC7FA007A6B83 /* GeoPad-Landscape~ipad.png */; };
+		4738F405172FD193007A6B83 /* blackbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4738F404172FD193007A6B83 /* blackbutton.png */; };
+		473DDBF916EE1BC400A2BBFD /* OverleyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473DDBF416EE1BC400A2BBFD /* OverleyViewController.m */; };
+		473DDBFB16EE1BC400A2BBFD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 473DDBF716EE1BC400A2BBFD /* ViewController.m */; };
+		473DDBFC16EE1BC400A2BBFD /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 473DDBF816EE1BC400A2BBFD /* ViewController.xib */; };
+		473DDC0D16EED33600A2BBFD /* NatGeo_s.png in Resources */ = {isa = PBXBuildFile; fileRef = 473DDC0416EED33600A2BBFD /* NatGeo_s.png */; };
+		47627C38174222E700545EC1 /* GeoPadLogo72.png in Resources */ = {isa = PBXBuildFile; fileRef = 47627C37174222E600545EC1 /* GeoPadLogo72.png */; };
+		476342791737907B0070F4C7 /* checkbox_checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4763426A1737907A0070F4C7 /* checkbox_checked.png */; };
+		4763427A1737907B0070F4C7 /* checkbox_unchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 4763426B1737907A0070F4C7 /* checkbox_unchecked.png */; };
+		4763427B1737907B0070F4C7 /* CircleArrowDown_sml.png in Resources */ = {isa = PBXBuildFile; fileRef = 4763426C1737907A0070F4C7 /* CircleArrowDown_sml.png */; };
+		4763427C1737907B0070F4C7 /* CircleArrowRight_sml.png in Resources */ = {isa = PBXBuildFile; fileRef = 4763426D1737907A0070F4C7 /* CircleArrowRight_sml.png */; };
+		4763427D1737907B0070F4C7 /* LayerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4763426F1737907A0070F4C7 /* LayerInfo.m */; };
+		4763427E1737907B0070F4C7 /* LayerInfoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 476342711737907B0070F4C7 /* LayerInfoCell.m */; };
+		4763427F1737907B0070F4C7 /* LayerLegendCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 476342731737907B0070F4C7 /* LayerLegendCell.m */; };
+		476342811737907B0070F4C7 /* TOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 476342771737907B0070F4C7 /* TOCViewController.m */; };
+		476342821737907B0070F4C7 /* TOCViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 476342781737907B0070F4C7 /* TOCViewController.xib */; };
+		4764913316C1EEDB0021B0B1 /* ToolsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764913216C1EEDB0021B0B1 /* ToolsViewController.m */; };
+		4764913616C1EEF00021B0B1 /* ToolsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4764913516C1EEF00021B0B1 /* ToolsViewController.xib */; };
+		4764914016C258870021B0B1 /* SmoothedBIView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764913F16C258870021B0B1 /* SmoothedBIView.m */; };
+		4764934816CC7EAC0021B0B1 /* ActivityAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4764934716CC7EAC0021B0B1 /* ActivityAlertView.m */; };
+		476EE01416E455C900A8DFB5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 476EE01316E455C900A8DFB5 /* AssetsLibrary.framework */; };
+		477AB8C9173BBE2300ED8E53 /* RootTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477AB8C7173BBE2100ED8E53 /* RootTableViewController.m */; };
+		477AB8CA173BBE2300ED8E53 /* RootTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477AB8C8173BBE2200ED8E53 /* RootTableViewController.xib */; };
+		477D6AB11741EED100862EBC /* OverleyViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 477D6AB01741EECE00862EBC /* OverleyViewController.xib */; };
+		47A26A2316BADDD900B201D2 /* AboutText.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 47A26A2216BADDD900B201D2 /* AboutText.jpg */; };
+		47A26A2616BAEA7000B201D2 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47A26A2516BAEA7000B201D2 /* MessageUI.framework */; };
+		47EEDE6916BB7E0D00E14733 /* Basemaps.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47EEDE6816BB7E0D00E14733 /* Basemaps.xib */; };
+		47EEDE6C16BB80C100E14733 /* BasemapsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47EEDE6B16BB80C100E14733 /* BasemapsViewController.m */; };
+		975E7536167A8B7F005FB57B /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 975E7535167A8B7F005FB57B /* libc++.dylib */; };
+		975E7538167A8B8A005FB57B /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 975E7537167A8B8A005FB57B /* OpenGLES.framework */; };
+		97B4A834159A533E00C0CFCC /* PlaceholderMap.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B4A833159A533D00C0CFCC /* PlaceholderMap.png */; };
+		97B4A836159A556300C0CFCC /* PlaceholderGroup.png in Resources */ = {isa = PBXBuildFile; fileRef = 97B4A835159A556200C0CFCC /* PlaceholderGroup.png */; };
+		97B4A838159A644500C0CFCC /* RootViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 97B4A837159A644200C0CFCC /* RootViewController_iPad.xib */; };
+		C52B06B3155DCB0C00AC0E87 /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B06B2155DCB0C00AC0E87 /* IconDownloader.m */; };
+		C52B06B9155DD0C100AC0E87 /* LoadingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C52B06B8155DD0C100AC0E87 /* LoadingTableViewCell.m */; };
+		C52B06C31561E08D00AC0E87 /* LoadingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52B06C21561E08D00AC0E87 /* LoadingTableViewCell.xib */; };
+		C52B06CD156326AF00AC0E87 /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C52B06CC156326AF00AC0E87 /* GroupTableViewCell.xib */; };
+		C52B06CF1563284700AC0E87 /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = C52B06CE1563284700AC0E87 /* Placeholder.png */; };
+		C5B882F01559DFA900E635C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B882EF1559DFA900E635C5 /* UIKit.framework */; };
+		C5B882F21559DFA900E635C5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B882F11559DFA900E635C5 /* Foundation.framework */; };
+		C5B882F41559DFA900E635C5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B882F31559DFA900E635C5 /* CoreGraphics.framework */; };
+		C5B882FA1559DFA900E635C5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C5B882F81559DFA900E635C5 /* InfoPlist.strings */; };
+		C5B882FC1559DFA900E635C5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B882FB1559DFA900E635C5 /* main.m */; };
+		C5B883001559DFA900E635C5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B882FF1559DFA900E635C5 /* AppDelegate.m */; };
+		C5B883031559DFA900E635C5 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B883021559DFA900E635C5 /* RootViewController.m */; };
+		C5B883191559DFC900E635C5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B8830F1559DFC900E635C5 /* libz.dylib */; };
+		C5B8831B1559DFC900E635C5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B883111559DFC900E635C5 /* Security.framework */; };
+		C5B8831C1559DFC900E635C5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B883121559DFC900E635C5 /* MobileCoreServices.framework */; };
+		C5B8831D1559DFC900E635C5 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B883131559DFC900E635C5 /* MediaPlayer.framework */; };
+		C5B8831F1559DFC900E635C5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B883151559DFC900E635C5 /* CoreLocation.framework */; };
+		C5B883201559DFC900E635C5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B883161559DFC900E635C5 /* QuartzCore.framework */; };
+		C5B883211559DFC900E635C5 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5B883171559DFC900E635C5 /* CoreText.framework */; };
+		C5B883241559E05800E635C5 /* ArcGIS.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C5B883231559E05800E635C5 /* ArcGIS.bundle */; };
+		C5B88330155AFCE000E635C5 /* PortalExplorer.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B8832E155AFCE000E635C5 /* PortalExplorer.m */; };
+		C5B88331155AFCE000E635C5 /* PortalExplorer.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B8832F155AFCE000E635C5 /* PortalExplorer.xib */; };
+		C5B88345155B422B00E635C5 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B88344155B422B00E635C5 /* whiteButton.png */; };
+		C5B88348155B426200E635C5 /* myGroups.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B88346155B426200E635C5 /* myGroups.png */; };
+		C5B88349155B426200E635C5 /* myGroups@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B88347155B426200E635C5 /* myGroups@2x.png */; };
+		C5B8834C155B42B400E635C5 /* myContent.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B8834A155B42B400E635C5 /* myContent.png */; };
+		C5B8834F155B42E900E635C5 /* myContent@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5B8834E155B42E800E635C5 /* myContent@2x.png */; };
+		C5B88364155C679F00E635C5 /* OrganizationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5B88362155C679E00E635C5 /* OrganizationDetailsViewController.m */; };
+		C5B88365155C679F00E635C5 /* OrganizationDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5B88363155C679F00E635C5 /* OrganizationDetailsViewController.xib */; };
+		C5D52212156425890074C43A /* ItemTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D52211156425890074C43A /* ItemTableViewCell.xib */; };
+		C5D52215156430B00074C43A /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D52214156430B00074C43A /* ItemTableViewCell.m */; };
+		C5D52217156452460074C43A /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D52216156452460074C43A /* blueButton.png */; };
+		C5D5221A1565752E0074C43A /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D522191565752D0074C43A /* GroupTableViewCell.m */; };
+		C5D5221F156580E50074C43A /* FilteredItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D5221D156580E50074C43A /* FilteredItemsViewController.xib */; };
+		C5D522201565A8110074C43A /* FilteredItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D5221C156580E40074C43A /* FilteredItemsViewController.m */; };
+		C5D522331565BE3C0074C43A /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D522311565BE3C0074C43A /* SearchViewController.m */; };
+		C5D522341565BE3C0074C43A /* SearchViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D522321565BE3C0074C43A /* SearchViewController.xib */; };
+		C5D52241156C580A0074C43A /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D5223F156C580A0074C43A /* LoginViewController.m */; };
+		C5D52242156C580A0074C43A /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D52240156C580A0074C43A /* LoginViewController.xib */; };
+		C5D5224915780B610074C43A /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D5224815780B600074C43A /* LoadingView.m */; };
+		C5D5224E157828380074C43A /* UserGroupsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D5224C157828380074C43A /* UserGroupsViewController.m */; };
+		C5D5224F157828380074C43A /* UserGroupsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D5224D157828380074C43A /* UserGroupsViewController.xib */; };
+		C5D52253157928FA0074C43A /* UserContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D52251157928FA0074C43A /* UserContentViewController.m */; };
+		C5D52254157928FA0074C43A /* UserContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D52252157928FA0074C43A /* UserContentViewController.xib */; };
+		C5D5225A157970310074C43A /* FolderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D52259157970300074C43A /* FolderTableViewCell.m */; };
+		C5D5225C157970DF0074C43A /* FolderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D5225B157970DF0074C43A /* FolderTableViewCell.xib */; };
+		C5D5225E157971F20074C43A /* Folder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D5225D157971F20074C43A /* Folder@2x.png */; };
+		C5D522601579720C0074C43A /* Folder.png in Resources */ = {isa = PBXBuildFile; fileRef = C5D5225F1579720C0074C43A /* Folder.png */; };
+		C5D52269157D3A3F0074C43A /* ContentViewControllerBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D52267157D3A3D0074C43A /* ContentViewControllerBase.m */; };
+		C5D5226A157D3A3F0074C43A /* ContentViewControllerBase.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D52268157D3A3E0074C43A /* ContentViewControllerBase.xib */; };
+		C5D5226E157D92170074C43A /* FolderItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5D5226C157D92150074C43A /* FolderItemsViewController.m */; };
+		C5D5226F157D92170074C43A /* FolderItemsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C5D5226D157D92160074C43A /* FolderItemsViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4709EBF816BF5A4A00CF9D97 /* ResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultsViewController.h; sourceTree = "<group>"; };
+		4709EBF916BF5A4A00CF9D97 /* ResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultsViewController.m; sourceTree = "<group>"; };
+		4709EBFA16BF5A4A00CF9D97 /* ResultsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultsViewController.xib; sourceTree = "<group>"; };
+		4709EBFE16BF5A7700CF9D97 /* BluePushpin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BluePushpin.png; sourceTree = "<group>"; };
+		4709EC0016BF69C600CF9D97 /* WebMercatorUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebMercatorUtil.h; sourceTree = "<group>"; };
+		4709EC0116BF69C600CF9D97 /* WebMercatorUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebMercatorUtil.m; sourceTree = "<group>"; };
+		4709EC0316BFB99500CF9D97 /* sqbluebutton.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sqbluebutton.jpeg; sourceTree = "<group>"; };
+		47102EDA17409C76004509C8 /* DescriptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DescriptionViewController.h; sourceTree = "<group>"; };
+		47102EDB17409C76004509C8 /* DescriptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DescriptionViewController.m; sourceTree = "<group>"; };
+		47102EDC17409C76004509C8 /* DescriptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionViewController.xib; sourceTree = "<group>"; };
+		47182E10170A8BD30017B375 /* GeoPadLogo1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GeoPadLogo1024.png; path = GeoPad/GeoPadLogo1024.png; sourceTree = "<group>"; };
+		47182E11170A8BD30017B375 /* GeoPadLogo512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GeoPadLogo512.png; path = GeoPad/GeoPadLogo512.png; sourceTree = "<group>"; };
+		47182E1E170AA1320017B375 /* GeoPad-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GeoPad-Portrait~ipad.png"; sourceTree = "<group>"; };
+		471EAE1516D1D4A600D025D0 /* NibCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = NibCell.xib; path = "../../CollectionViewExample-master/CollectionViewExample/NibCell.xib"; sourceTree = "<group>"; };
+		471EAE2016D23B5400D025D0 /* BingAerial.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BingAerial.png; sourceTree = "<group>"; };
+		471EAE2116D23B5400D025D0 /* BingHybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BingHybrid.png; sourceTree = "<group>"; };
+		471EAE2216D23B5400D025D0 /* BingStreet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BingStreet.png; sourceTree = "<group>"; };
+		471EAE2316D23B5400D025D0 /* DeLorme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = DeLorme.png; sourceTree = "<group>"; };
+		471EAE2416D23B5400D025D0 /* ESRI_Imagery.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ESRI_Imagery.png; sourceTree = "<group>"; };
+		471EAE2516D23B5400D025D0 /* Esri_Ocean.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Esri_Ocean.png; sourceTree = "<group>"; };
+		471EAE2616D23B5400D025D0 /* ESRI_Physical.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ESRI_Physical.png; sourceTree = "<group>"; };
+		471EAE2716D23B5400D025D0 /* ESRI_ShadedRelief.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ESRI_ShadedRelief.png; sourceTree = "<group>"; };
+		471EAE2816D23B5400D025D0 /* ESRI_Street.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ESRI_Street.png; sourceTree = "<group>"; };
+		471EAE2916D23B5400D025D0 /* ESRI_Terrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ESRI_Terrain.png; sourceTree = "<group>"; };
+		471EAE2A16D23B5400D025D0 /* ESRI_Topography.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ESRI_Topography.png; sourceTree = "<group>"; };
+		471EAE2B16D23B5400D025D0 /* GoogleHybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleHybrid.png; sourceTree = "<group>"; };
+		471EAE2C16D23B5400D025D0 /* GoogleRoad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleRoad.png; sourceTree = "<group>"; };
+		471EAE2D16D23B5400D025D0 /* GoogleSatellite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleSatellite.png; sourceTree = "<group>"; };
+		471EAE2E16D23B5400D025D0 /* GoogleTerrain.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleTerrain.png; sourceTree = "<group>"; };
+		471EAE2F16D23B5400D025D0 /* GoogleTerrainHybrid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GoogleTerrainHybrid.png; sourceTree = "<group>"; };
+		471EAE3016D23B5400D025D0 /* NatGeo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NatGeo.png; sourceTree = "<group>"; };
+		471EAE3116D23B5400D025D0 /* OSM_Mapnik.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OSM_Mapnik.png; sourceTree = "<group>"; };
+		471EAE3216D23B5400D025D0 /* OSM_Noname.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OSM_Noname.png; sourceTree = "<group>"; };
+		471EAE3316D23B5400D025D0 /* OSM_Osmarender.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OSM_Osmarender.png; sourceTree = "<group>"; };
+		47384BEB1743803000DB2730 /* GeoPadLogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeoPadLogo.png; sourceTree = "<group>"; };
+		4738F3F6172F965F007A6B83 /* AboutGeoPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutGeoPad.h; sourceTree = "<group>"; };
+		4738F3F7172F965F007A6B83 /* AboutGeoPad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutGeoPad.m; sourceTree = "<group>"; };
+		4738F3F8172F965F007A6B83 /* AboutGeoPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutGeoPad.xib; sourceTree = "<group>"; };
+		4738F3FB172FC309007A6B83 /* GeoPad-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GeoPad-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		4738F3FE172FC378007A6B83 /* GeoPad-Landscape@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GeoPad-Landscape@2x~ipad.png"; sourceTree = "<group>"; };
+		4738F402172FC7FA007A6B83 /* GeoPad-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GeoPad-Landscape~ipad.png"; sourceTree = "<group>"; };
+		4738F404172FD193007A6B83 /* blackbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackbutton.png; sourceTree = "<group>"; };
+		473DDBF316EE1BC300A2BBFD /* OverleyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = OverleyViewController.h; path = ../OverleyViewController.h; sourceTree = "<group>"; };
+		473DDBF416EE1BC400A2BBFD /* OverleyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = OverleyViewController.m; path = ../OverleyViewController.m; sourceTree = "<group>"; };
+		473DDBF616EE1BC400A2BBFD /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = ../ViewController.h; sourceTree = "<group>"; };
+		473DDBF716EE1BC400A2BBFD /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = ../ViewController.m; sourceTree = "<group>"; };
+		473DDBF816EE1BC400A2BBFD /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ViewController.xib; path = ../ViewController.xib; sourceTree = "<group>"; };
+		473DDC0416EED33600A2BBFD /* NatGeo_s.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = NatGeo_s.png; sourceTree = "<group>"; };
+		47627C37174222E600545EC1 /* GeoPadLogo72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GeoPadLogo72.png; sourceTree = "<group>"; };
+		4763426A1737907A0070F4C7 /* checkbox_checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_checked.png; sourceTree = "<group>"; };
+		4763426B1737907A0070F4C7 /* checkbox_unchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkbox_unchecked.png; sourceTree = "<group>"; };
+		4763426C1737907A0070F4C7 /* CircleArrowDown_sml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleArrowDown_sml.png; sourceTree = "<group>"; };
+		4763426D1737907A0070F4C7 /* CircleArrowRight_sml.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = CircleArrowRight_sml.png; sourceTree = "<group>"; };
+		4763426E1737907A0070F4C7 /* LayerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerInfo.h; sourceTree = "<group>"; };
+		4763426F1737907A0070F4C7 /* LayerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerInfo.m; sourceTree = "<group>"; };
+		476342701737907B0070F4C7 /* LayerInfoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerInfoCell.h; sourceTree = "<group>"; };
+		476342711737907B0070F4C7 /* LayerInfoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerInfoCell.m; sourceTree = "<group>"; };
+		476342721737907B0070F4C7 /* LayerLegendCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerLegendCell.h; sourceTree = "<group>"; };
+		476342731737907B0070F4C7 /* LayerLegendCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerLegendCell.m; sourceTree = "<group>"; };
+		476342761737907B0070F4C7 /* TOCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TOCViewController.h; sourceTree = "<group>"; };
+		476342771737907B0070F4C7 /* TOCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TOCViewController.m; sourceTree = "<group>"; };
+		476342781737907B0070F4C7 /* TOCViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TOCViewController.xib; sourceTree = "<group>"; };
+		4764913116C1EEDB0021B0B1 /* ToolsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToolsViewController.h; sourceTree = "<group>"; };
+		4764913216C1EEDB0021B0B1 /* ToolsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToolsViewController.m; sourceTree = "<group>"; };
+		4764913516C1EEF00021B0B1 /* ToolsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ToolsViewController.xib; sourceTree = "<group>"; };
+		4764913C16C233D70021B0B1 /* SmoothedBIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmoothedBIView.h; sourceTree = "<group>"; };
+		4764913F16C258870021B0B1 /* SmoothedBIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmoothedBIView.m; sourceTree = "<group>"; };
+		4764934616CC7EAC0021B0B1 /* ActivityAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityAlertView.h; sourceTree = "<group>"; };
+		4764934716CC7EAC0021B0B1 /* ActivityAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityAlertView.m; sourceTree = "<group>"; };
+		476EE01316E455C900A8DFB5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		477AB8C6173BBE2100ED8E53 /* RootTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootTableViewController.h; sourceTree = "<group>"; };
+		477AB8C7173BBE2100ED8E53 /* RootTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootTableViewController.m; sourceTree = "<group>"; };
+		477AB8C8173BBE2200ED8E53 /* RootTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootTableViewController.xib; sourceTree = "<group>"; };
+		477D6AB01741EECE00862EBC /* OverleyViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OverleyViewController.xib; sourceTree = "<group>"; };
+		47A26A2216BADDD900B201D2 /* AboutText.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = AboutText.jpg; sourceTree = "<group>"; };
+		47A26A2516BAEA7000B201D2 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		47EEDE6816BB7E0D00E14733 /* Basemaps.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Basemaps.xib; sourceTree = "<group>"; };
+		47EEDE6A16BB80C100E14733 /* BasemapsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasemapsViewController.h; path = ../BasemapsViewController.h; sourceTree = "<group>"; };
+		47EEDE6B16BB80C100E14733 /* BasemapsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasemapsViewController.m; path = ../BasemapsViewController.m; sourceTree = "<group>"; };
+		975E7535167A8B7F005FB57B /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
+		975E7537167A8B8A005FB57B /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		97B4A833159A533D00C0CFCC /* PlaceholderMap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceholderMap.png; sourceTree = "<group>"; };
+		97B4A835159A556200C0CFCC /* PlaceholderGroup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlaceholderGroup.png; sourceTree = "<group>"; };
+		97B4A837159A644200C0CFCC /* RootViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController_iPad.xib; sourceTree = "<group>"; };
+		C52B06B1155DCB0C00AC0E87 /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		C52B06B2155DCB0C00AC0E87 /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		C52B06B7155DD0C100AC0E87 /* LoadingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingTableViewCell.h; sourceTree = "<group>"; };
+		C52B06B8155DD0C100AC0E87 /* LoadingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingTableViewCell.m; sourceTree = "<group>"; };
+		C52B06C21561E08D00AC0E87 /* LoadingTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingTableViewCell.xib; sourceTree = "<group>"; };
+		C52B06CC156326AF00AC0E87 /* GroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		C52B06CE1563284700AC0E87 /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Placeholder.png; sourceTree = "<group>"; };
+		C5B882EB1559DFA900E635C5 /* GeoPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5B882EF1559DFA900E635C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C5B882F11559DFA900E635C5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C5B882F31559DFA900E635C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5B882F71559DFA900E635C5 /* GeoPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GeoPad-Info.plist"; sourceTree = "<group>"; };
+		C5B882F91559DFA900E635C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C5B882FB1559DFA900E635C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5B882FD1559DFA900E635C5 /* GeoPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GeoPad-Prefix.pch"; sourceTree = "<group>"; };
+		C5B882FE1559DFA900E635C5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C5B882FF1559DFA900E635C5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 2; path = AppDelegate.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C5B883011559DFA900E635C5 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C5B883021559DFA900E635C5 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 2; path = RootViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C5B8830F1559DFC900E635C5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		C5B883101559DFC900E635C5 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		C5B883111559DFC900E635C5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		C5B883121559DFC900E635C5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		C5B883131559DFC900E635C5 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C5B883141559DFC900E635C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5B883151559DFC900E635C5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C5B883161559DFC900E635C5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C5B883171559DFC900E635C5 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		C5B883181559DFC900E635C5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C5B883231559E05800E635C5 /* ArcGIS.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ArcGIS.bundle; path = $HOME/Library/SDKs/ArcGIS/iOS/ArcGIS.framework/Versions/Current/Resources/ArcGIS.bundle; sourceTree = "<absolute>"; };
+		C5B8832D155AFCE000E635C5 /* PortalExplorer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PortalExplorer.h; sourceTree = "<group>"; };
+		C5B8832E155AFCE000E635C5 /* PortalExplorer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PortalExplorer.m; sourceTree = "<group>"; };
+		C5B8832F155AFCE000E635C5 /* PortalExplorer.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PortalExplorer.xib; sourceTree = "<group>"; };
+		C5B88344155B422B00E635C5 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		C5B88346155B426200E635C5 /* myGroups.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myGroups.png; sourceTree = "<group>"; };
+		C5B88347155B426200E635C5 /* myGroups@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myGroups@2x.png"; sourceTree = "<group>"; };
+		C5B8834A155B42B400E635C5 /* myContent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myContent.png; sourceTree = "<group>"; };
+		C5B8834E155B42E800E635C5 /* myContent@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "myContent@2x.png"; sourceTree = "<group>"; };
+		C5B88361155C679E00E635C5 /* OrganizationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrganizationDetailsViewController.h; sourceTree = "<group>"; };
+		C5B88362155C679E00E635C5 /* OrganizationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 2; path = OrganizationDetailsViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		C5B88363155C679F00E635C5 /* OrganizationDetailsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = OrganizationDetailsViewController.xib; sourceTree = "<group>"; };
+		C5D52211156425890074C43A /* ItemTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ItemTableViewCell.xib; sourceTree = "<group>"; };
+		C5D52213156430B00074C43A /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewCell.h; sourceTree = "<group>"; };
+		C5D52214156430B00074C43A /* ItemTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemTableViewCell.m; sourceTree = "<group>"; };
+		C5D52216156452460074C43A /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		C5D522181565752D0074C43A /* GroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
+		C5D522191565752D0074C43A /* GroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
+		C5D5221B156580E40074C43A /* FilteredItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FilteredItemsViewController.h; sourceTree = "<group>"; };
+		C5D5221C156580E40074C43A /* FilteredItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FilteredItemsViewController.m; sourceTree = "<group>"; };
+		C5D5221D156580E50074C43A /* FilteredItemsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FilteredItemsViewController.xib; sourceTree = "<group>"; };
+		C5D522301565BE3C0074C43A /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		C5D522311565BE3C0074C43A /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		C5D522321565BE3C0074C43A /* SearchViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchViewController.xib; sourceTree = "<group>"; };
+		C5D5223E156C580A0074C43A /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		C5D5223F156C580A0074C43A /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		C5D52240156C580A0074C43A /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		C5D5224715780B5F0074C43A /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		C5D5224815780B600074C43A /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		C5D5224B157828380074C43A /* UserGroupsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserGroupsViewController.h; sourceTree = "<group>"; };
+		C5D5224C157828380074C43A /* UserGroupsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserGroupsViewController.m; sourceTree = "<group>"; };
+		C5D5224D157828380074C43A /* UserGroupsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserGroupsViewController.xib; sourceTree = "<group>"; };
+		C5D52250157928FA0074C43A /* UserContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserContentViewController.h; sourceTree = "<group>"; };
+		C5D52251157928FA0074C43A /* UserContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserContentViewController.m; sourceTree = "<group>"; };
+		C5D52252157928FA0074C43A /* UserContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserContentViewController.xib; sourceTree = "<group>"; };
+		C5D522581579702F0074C43A /* FolderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderTableViewCell.h; sourceTree = "<group>"; };
+		C5D52259157970300074C43A /* FolderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderTableViewCell.m; sourceTree = "<group>"; };
+		C5D5225B157970DF0074C43A /* FolderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FolderTableViewCell.xib; sourceTree = "<group>"; };
+		C5D5225D157971F20074C43A /* Folder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Folder@2x.png"; sourceTree = "<group>"; };
+		C5D5225F1579720C0074C43A /* Folder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Folder.png; sourceTree = "<group>"; };
+		C5D52266157D3A3C0074C43A /* ContentViewControllerBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewControllerBase.h; sourceTree = "<group>"; };
+		C5D52267157D3A3D0074C43A /* ContentViewControllerBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContentViewControllerBase.m; sourceTree = "<group>"; };
+		C5D52268157D3A3E0074C43A /* ContentViewControllerBase.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewControllerBase.xib; sourceTree = "<group>"; };
+		C5D5226B157D92140074C43A /* FolderItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FolderItemsViewController.h; sourceTree = "<group>"; };
+		C5D5226C157D92150074C43A /* FolderItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FolderItemsViewController.m; sourceTree = "<group>"; };
+		C5D5226D157D92160074C43A /* FolderItemsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FolderItemsViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5B882E81559DFA900E635C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				476EE01416E455C900A8DFB5 /* AssetsLibrary.framework in Frameworks */,
+				47A26A2616BAEA7000B201D2 /* MessageUI.framework in Frameworks */,
+				975E7538167A8B8A005FB57B /* OpenGLES.framework in Frameworks */,
+				975E7536167A8B7F005FB57B /* libc++.dylib in Frameworks */,
+				C5B882F01559DFA900E635C5 /* UIKit.framework in Frameworks */,
+				C5B882F21559DFA900E635C5 /* Foundation.framework in Frameworks */,
+				C5B882F41559DFA900E635C5 /* CoreGraphics.framework in Frameworks */,
+				C5B883191559DFC900E635C5 /* libz.dylib in Frameworks */,
+				C5B8831B1559DFC900E635C5 /* Security.framework in Frameworks */,
+				C5B8831C1559DFC900E635C5 /* MobileCoreServices.framework in Frameworks */,
+				C5B8831D1559DFC900E635C5 /* MediaPlayer.framework in Frameworks */,
+				C5B8831F1559DFC900E635C5 /* CoreLocation.framework in Frameworks */,
+				C5B883201559DFC900E635C5 /* QuartzCore.framework in Frameworks */,
+				C5B883211559DFC900E635C5 /* CoreText.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C52B06AB155DCA0400AC0E87 /* Objects */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5221B156580E40074C43A /* FilteredItemsViewController.h */,
+				C5D5221C156580E40074C43A /* FilteredItemsViewController.m */,
+				C5D5221D156580E50074C43A /* FilteredItemsViewController.xib */,
+				C5D5224715780B5F0074C43A /* LoadingView.h */,
+				C5D5224815780B600074C43A /* LoadingView.m */,
+				C5D522181565752D0074C43A /* GroupTableViewCell.h */,
+				C5D522191565752D0074C43A /* GroupTableViewCell.m */,
+				C52B06CC156326AF00AC0E87 /* GroupTableViewCell.xib */,
+				C5D52213156430B00074C43A /* ItemTableViewCell.h */,
+				C5D52214156430B00074C43A /* ItemTableViewCell.m */,
+				C5D52211156425890074C43A /* ItemTableViewCell.xib */,
+				C52B06B7155DD0C100AC0E87 /* LoadingTableViewCell.h */,
+				C52B06B8155DD0C100AC0E87 /* LoadingTableViewCell.m */,
+				C52B06C21561E08D00AC0E87 /* LoadingTableViewCell.xib */,
+				C52B06B1155DCB0C00AC0E87 /* IconDownloader.h */,
+				C52B06B2155DCB0C00AC0E87 /* IconDownloader.m */,
+				C5D522581579702F0074C43A /* FolderTableViewCell.h */,
+				C5D52259157970300074C43A /* FolderTableViewCell.m */,
+				C5D5225B157970DF0074C43A /* FolderTableViewCell.xib */,
+				C5D52266157D3A3C0074C43A /* ContentViewControllerBase.h */,
+				C5D52267157D3A3D0074C43A /* ContentViewControllerBase.m */,
+				C5D52268157D3A3E0074C43A /* ContentViewControllerBase.xib */,
+			);
+			name = Objects;
+			sourceTree = "<group>";
+		};
+		C52B06C61562D45D00AC0E87 /* Organization */ = {
+			isa = PBXGroup;
+			children = (
+				C5B88361155C679E00E635C5 /* OrganizationDetailsViewController.h */,
+				C5B88362155C679E00E635C5 /* OrganizationDetailsViewController.m */,
+				C5B88363155C679F00E635C5 /* OrganizationDetailsViewController.xib */,
+			);
+			name = Organization;
+			sourceTree = "<group>";
+		};
+		C5B882E01559DFA900E635C5 = {
+			isa = PBXGroup;
+			children = (
+				47384BEB1743803000DB2730 /* GeoPadLogo.png */,
+				47627C37174222E600545EC1 /* GeoPadLogo72.png */,
+				4738F402172FC7FA007A6B83 /* GeoPad-Landscape~ipad.png */,
+				4738F3FE172FC378007A6B83 /* GeoPad-Landscape@2x~ipad.png */,
+				4738F3FB172FC309007A6B83 /* GeoPad-Portrait@2x~ipad.png */,
+				47182E1E170AA1320017B375 /* GeoPad-Portrait~ipad.png */,
+				47182E10170A8BD30017B375 /* GeoPadLogo1024.png */,
+				47182E11170A8BD30017B375 /* GeoPadLogo512.png */,
+				C5B883231559E05800E635C5 /* ArcGIS.bundle */,
+				C5B882F51559DFA900E635C5 /* GeoPad */,
+				C5B882EE1559DFA900E635C5 /* Frameworks */,
+				C5B882EC1559DFA900E635C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5B882EC1559DFA900E635C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5B882EB1559DFA900E635C5 /* GeoPad.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5B882EE1559DFA900E635C5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				476EE01316E455C900A8DFB5 /* AssetsLibrary.framework */,
+				975E7537167A8B8A005FB57B /* OpenGLES.framework */,
+				975E7535167A8B7F005FB57B /* libc++.dylib */,
+				C5B8830F1559DFC900E635C5 /* libz.dylib */,
+				C5B883101559DFC900E635C5 /* libstdc++.dylib */,
+				47A26A2516BAEA7000B201D2 /* MessageUI.framework */,
+				C5B883111559DFC900E635C5 /* Security.framework */,
+				C5B883121559DFC900E635C5 /* MobileCoreServices.framework */,
+				C5B883131559DFC900E635C5 /* MediaPlayer.framework */,
+				C5B883141559DFC900E635C5 /* CoreGraphics.framework */,
+				C5B883151559DFC900E635C5 /* CoreLocation.framework */,
+				C5B883161559DFC900E635C5 /* QuartzCore.framework */,
+				C5B883171559DFC900E635C5 /* CoreText.framework */,
+				C5B883181559DFC900E635C5 /* CoreGraphics.framework */,
+				C5B882EF1559DFA900E635C5 /* UIKit.framework */,
+				C5B882F11559DFA900E635C5 /* Foundation.framework */,
+				C5B882F31559DFA900E635C5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C5B882F51559DFA900E635C5 /* GeoPad */ = {
+			isa = PBXGroup;
+			children = (
+				C5B88333155AFCE600E635C5 /* Portal Explorer */,
+				C5B882FE1559DFA900E635C5 /* AppDelegate.h */,
+				C5B882FF1559DFA900E635C5 /* AppDelegate.m */,
+				4738F3F6172F965F007A6B83 /* AboutGeoPad.h */,
+				4738F3F7172F965F007A6B83 /* AboutGeoPad.m */,
+				4738F3F8172F965F007A6B83 /* AboutGeoPad.xib */,
+				47102EDA17409C76004509C8 /* DescriptionViewController.h */,
+				47102EDB17409C76004509C8 /* DescriptionViewController.m */,
+				47102EDC17409C76004509C8 /* DescriptionViewController.xib */,
+				473DDBF316EE1BC300A2BBFD /* OverleyViewController.h */,
+				473DDBF416EE1BC400A2BBFD /* OverleyViewController.m */,
+				477D6AB01741EECE00862EBC /* OverleyViewController.xib */,
+				473DDBF616EE1BC400A2BBFD /* ViewController.h */,
+				473DDBF716EE1BC400A2BBFD /* ViewController.m */,
+				473DDBF816EE1BC400A2BBFD /* ViewController.xib */,
+				C5B883011559DFA900E635C5 /* RootViewController.h */,
+				C5B883021559DFA900E635C5 /* RootViewController.m */,
+				97B4A837159A644200C0CFCC /* RootViewController_iPad.xib */,
+				477AB8C6173BBE2100ED8E53 /* RootTableViewController.h */,
+				477AB8C7173BBE2100ED8E53 /* RootTableViewController.m */,
+				477AB8C8173BBE2200ED8E53 /* RootTableViewController.xib */,
+				4764913F16C258870021B0B1 /* SmoothedBIView.m */,
+				4764913116C1EEDB0021B0B1 /* ToolsViewController.h */,
+				4764913216C1EEDB0021B0B1 /* ToolsViewController.m */,
+				4763426E1737907A0070F4C7 /* LayerInfo.h */,
+				4763426F1737907A0070F4C7 /* LayerInfo.m */,
+				476342701737907B0070F4C7 /* LayerInfoCell.h */,
+				476342711737907B0070F4C7 /* LayerInfoCell.m */,
+				476342721737907B0070F4C7 /* LayerLegendCell.h */,
+				476342731737907B0070F4C7 /* LayerLegendCell.m */,
+				476342761737907B0070F4C7 /* TOCViewController.h */,
+				476342771737907B0070F4C7 /* TOCViewController.m */,
+				476342781737907B0070F4C7 /* TOCViewController.xib */,
+				4764913516C1EEF00021B0B1 /* ToolsViewController.xib */,
+				4709EBF816BF5A4A00CF9D97 /* ResultsViewController.h */,
+				4764934616CC7EAC0021B0B1 /* ActivityAlertView.h */,
+				4764934716CC7EAC0021B0B1 /* ActivityAlertView.m */,
+				4709EBF916BF5A4A00CF9D97 /* ResultsViewController.m */,
+				4709EBFA16BF5A4A00CF9D97 /* ResultsViewController.xib */,
+				4764913C16C233D70021B0B1 /* SmoothedBIView.h */,
+				4709EC0016BF69C600CF9D97 /* WebMercatorUtil.h */,
+				4709EC0116BF69C600CF9D97 /* WebMercatorUtil.m */,
+				47EEDE6A16BB80C100E14733 /* BasemapsViewController.h */,
+				47EEDE6B16BB80C100E14733 /* BasemapsViewController.m */,
+				47EEDE6816BB7E0D00E14733 /* Basemaps.xib */,
+				471EAE1516D1D4A600D025D0 /* NibCell.xib */,
+				C5D5223E156C580A0074C43A /* LoginViewController.h */,
+				C5D5223F156C580A0074C43A /* LoginViewController.m */,
+				C5D52240156C580A0074C43A /* LoginViewController.xib */,
+				C5B882F61559DFA900E635C5 /* Supporting Files */,
+			);
+			path = GeoPad;
+			sourceTree = "<group>";
+		};
+		C5B882F61559DFA900E635C5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C5B98289158FEC92008478D3 /* Images */,
+				C5B882F71559DFA900E635C5 /* GeoPad-Info.plist */,
+				C5B882F81559DFA900E635C5 /* InfoPlist.strings */,
+				C5B882FB1559DFA900E635C5 /* main.m */,
+				C5B882FD1559DFA900E635C5 /* GeoPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C5B88333155AFCE600E635C5 /* Portal Explorer */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5224A157828030074C43A /* User */,
+				C5D522211565AEAB0074C43A /* Search */,
+				C52B06C61562D45D00AC0E87 /* Organization */,
+				C52B06AB155DCA0400AC0E87 /* Objects */,
+				C5B8832D155AFCE000E635C5 /* PortalExplorer.h */,
+				C5B8832E155AFCE000E635C5 /* PortalExplorer.m */,
+				C5B8832F155AFCE000E635C5 /* PortalExplorer.xib */,
+			);
+			name = "Portal Explorer";
+			sourceTree = "<group>";
+		};
+		C5B98289158FEC92008478D3 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4738F404172FD193007A6B83 /* blackbutton.png */,
+				4709EBFE16BF5A7700CF9D97 /* BluePushpin.png */,
+				4763426A1737907A0070F4C7 /* checkbox_checked.png */,
+				4763426B1737907A0070F4C7 /* checkbox_unchecked.png */,
+				4763426C1737907A0070F4C7 /* CircleArrowDown_sml.png */,
+				4763426D1737907A0070F4C7 /* CircleArrowRight_sml.png */,
+				473DDC0416EED33600A2BBFD /* NatGeo_s.png */,
+				471EAE2016D23B5400D025D0 /* BingAerial.png */,
+				471EAE2116D23B5400D025D0 /* BingHybrid.png */,
+				471EAE2216D23B5400D025D0 /* BingStreet.png */,
+				471EAE2316D23B5400D025D0 /* DeLorme.png */,
+				471EAE2416D23B5400D025D0 /* ESRI_Imagery.png */,
+				471EAE2516D23B5400D025D0 /* Esri_Ocean.png */,
+				471EAE2616D23B5400D025D0 /* ESRI_Physical.png */,
+				471EAE2716D23B5400D025D0 /* ESRI_ShadedRelief.png */,
+				471EAE2816D23B5400D025D0 /* ESRI_Street.png */,
+				471EAE2916D23B5400D025D0 /* ESRI_Terrain.png */,
+				471EAE2A16D23B5400D025D0 /* ESRI_Topography.png */,
+				471EAE2B16D23B5400D025D0 /* GoogleHybrid.png */,
+				471EAE2C16D23B5400D025D0 /* GoogleRoad.png */,
+				471EAE2D16D23B5400D025D0 /* GoogleSatellite.png */,
+				471EAE2E16D23B5400D025D0 /* GoogleTerrain.png */,
+				471EAE2F16D23B5400D025D0 /* GoogleTerrainHybrid.png */,
+				471EAE3016D23B5400D025D0 /* NatGeo.png */,
+				471EAE3116D23B5400D025D0 /* OSM_Mapnik.png */,
+				471EAE3216D23B5400D025D0 /* OSM_Noname.png */,
+				471EAE3316D23B5400D025D0 /* OSM_Osmarender.png */,
+				97B4A835159A556200C0CFCC /* PlaceholderGroup.png */,
+				97B4A833159A533D00C0CFCC /* PlaceholderMap.png */,
+				47A26A2216BADDD900B201D2 /* AboutText.jpg */,
+				C5D5225F1579720C0074C43A /* Folder.png */,
+				C5D5225D157971F20074C43A /* Folder@2x.png */,
+				C5D52216156452460074C43A /* blueButton.png */,
+				4709EC0316BFB99500CF9D97 /* sqbluebutton.jpeg */,
+				C52B06CE1563284700AC0E87 /* Placeholder.png */,
+				C5B8834E155B42E800E635C5 /* myContent@2x.png */,
+				C5B8834A155B42B400E635C5 /* myContent.png */,
+				C5B88346155B426200E635C5 /* myGroups.png */,
+				C5B88347155B426200E635C5 /* myGroups@2x.png */,
+				C5B88344155B422B00E635C5 /* whiteButton.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		C5D522211565AEAB0074C43A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				C5D522301565BE3C0074C43A /* SearchViewController.h */,
+				C5D522311565BE3C0074C43A /* SearchViewController.m */,
+				C5D522321565BE3C0074C43A /* SearchViewController.xib */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		C5D5224A157828030074C43A /* User */ = {
+			isa = PBXGroup;
+			children = (
+				C5D5226B157D92140074C43A /* FolderItemsViewController.h */,
+				C5D5226C157D92150074C43A /* FolderItemsViewController.m */,
+				C5D5226D157D92160074C43A /* FolderItemsViewController.xib */,
+				C5D5224B157828380074C43A /* UserGroupsViewController.h */,
+				C5D5224C157828380074C43A /* UserGroupsViewController.m */,
+				C5D5224D157828380074C43A /* UserGroupsViewController.xib */,
+				C5D52250157928FA0074C43A /* UserContentViewController.h */,
+				C5D52251157928FA0074C43A /* UserContentViewController.m */,
+				C5D52252157928FA0074C43A /* UserContentViewController.xib */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5B882EA1559DFA900E635C5 /* GeoPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5B8830C1559DFA900E635C5 /* Build configuration list for PBXNativeTarget "GeoPad" */;
+			buildPhases = (
+				C5B882E71559DFA900E635C5 /* Sources */,
+				C5B882E81559DFA900E635C5 /* Frameworks */,
+				C5B882E91559DFA900E635C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoPad;
+			productName = PortalExplorerSample;
+			productReference = C5B882EB1559DFA900E635C5 /* GeoPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5B882E21559DFA900E635C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = C5B882E51559DFA900E635C5 /* Build configuration list for PBXProject "GeoPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C5B882E01559DFA900E635C5;
+			productRefGroup = C5B882EC1559DFA900E635C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5B882EA1559DFA900E635C5 /* GeoPad */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5B882E91559DFA900E635C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B882FA1559DFA900E635C5 /* InfoPlist.strings in Resources */,
+				C5B883241559E05800E635C5 /* ArcGIS.bundle in Resources */,
+				C5B88331155AFCE000E635C5 /* PortalExplorer.xib in Resources */,
+				C5B88345155B422B00E635C5 /* whiteButton.png in Resources */,
+				C5B88348155B426200E635C5 /* myGroups.png in Resources */,
+				C5B88349155B426200E635C5 /* myGroups@2x.png in Resources */,
+				C5B8834C155B42B400E635C5 /* myContent.png in Resources */,
+				C5B8834F155B42E900E635C5 /* myContent@2x.png in Resources */,
+				C5B88365155C679F00E635C5 /* OrganizationDetailsViewController.xib in Resources */,
+				C52B06C31561E08D00AC0E87 /* LoadingTableViewCell.xib in Resources */,
+				C52B06CD156326AF00AC0E87 /* GroupTableViewCell.xib in Resources */,
+				C52B06CF1563284700AC0E87 /* Placeholder.png in Resources */,
+				C5D52212156425890074C43A /* ItemTableViewCell.xib in Resources */,
+				C5D52217156452460074C43A /* blueButton.png in Resources */,
+				C5D5221F156580E50074C43A /* FilteredItemsViewController.xib in Resources */,
+				C5D522341565BE3C0074C43A /* SearchViewController.xib in Resources */,
+				C5D52242156C580A0074C43A /* LoginViewController.xib in Resources */,
+				C5D5224F157828380074C43A /* UserGroupsViewController.xib in Resources */,
+				C5D52254157928FA0074C43A /* UserContentViewController.xib in Resources */,
+				C5D5225C157970DF0074C43A /* FolderTableViewCell.xib in Resources */,
+				C5D5225E157971F20074C43A /* Folder@2x.png in Resources */,
+				C5D522601579720C0074C43A /* Folder.png in Resources */,
+				C5D5226A157D3A3F0074C43A /* ContentViewControllerBase.xib in Resources */,
+				C5D5226F157D92170074C43A /* FolderItemsViewController.xib in Resources */,
+				97B4A834159A533E00C0CFCC /* PlaceholderMap.png in Resources */,
+				97B4A836159A556300C0CFCC /* PlaceholderGroup.png in Resources */,
+				97B4A838159A644500C0CFCC /* RootViewController_iPad.xib in Resources */,
+				47A26A2316BADDD900B201D2 /* AboutText.jpg in Resources */,
+				47EEDE6916BB7E0D00E14733 /* Basemaps.xib in Resources */,
+				4709EBFC16BF5A4A00CF9D97 /* ResultsViewController.xib in Resources */,
+				4709EBFF16BF5A7700CF9D97 /* BluePushpin.png in Resources */,
+				4709EC0416BFB99500CF9D97 /* sqbluebutton.jpeg in Resources */,
+				4764913616C1EEF00021B0B1 /* ToolsViewController.xib in Resources */,
+				471EAE1616D1D4A600D025D0 /* NibCell.xib in Resources */,
+				471EAE3416D23B5400D025D0 /* BingAerial.png in Resources */,
+				471EAE3516D23B5400D025D0 /* BingHybrid.png in Resources */,
+				471EAE3616D23B5400D025D0 /* BingStreet.png in Resources */,
+				471EAE3716D23B5400D025D0 /* DeLorme.png in Resources */,
+				471EAE3816D23B5400D025D0 /* ESRI_Imagery.png in Resources */,
+				471EAE3916D23B5400D025D0 /* Esri_Ocean.png in Resources */,
+				471EAE3A16D23B5400D025D0 /* ESRI_Physical.png in Resources */,
+				471EAE3B16D23B5400D025D0 /* ESRI_ShadedRelief.png in Resources */,
+				471EAE3C16D23B5400D025D0 /* ESRI_Street.png in Resources */,
+				471EAE3D16D23B5400D025D0 /* ESRI_Terrain.png in Resources */,
+				471EAE3E16D23B5400D025D0 /* ESRI_Topography.png in Resources */,
+				471EAE3F16D23B5400D025D0 /* GoogleHybrid.png in Resources */,
+				471EAE4016D23B5400D025D0 /* GoogleRoad.png in Resources */,
+				471EAE4116D23B5400D025D0 /* GoogleSatellite.png in Resources */,
+				471EAE4216D23B5400D025D0 /* GoogleTerrain.png in Resources */,
+				471EAE4316D23B5400D025D0 /* GoogleTerrainHybrid.png in Resources */,
+				471EAE4416D23B5400D025D0 /* NatGeo.png in Resources */,
+				471EAE4516D23B5400D025D0 /* OSM_Mapnik.png in Resources */,
+				471EAE4616D23B5400D025D0 /* OSM_Noname.png in Resources */,
+				471EAE4716D23B5400D025D0 /* OSM_Osmarender.png in Resources */,
+				473DDBFC16EE1BC400A2BBFD /* ViewController.xib in Resources */,
+				473DDC0D16EED33600A2BBFD /* NatGeo_s.png in Resources */,
+				47182E14170A8BD30017B375 /* GeoPadLogo1024.png in Resources */,
+				47182E15170A8BD30017B375 /* GeoPadLogo512.png in Resources */,
+				47182E1F170AA1320017B375 /* GeoPad-Portrait~ipad.png in Resources */,
+				4738F3FA172F965F007A6B83 /* AboutGeoPad.xib in Resources */,
+				4738F3FC172FC309007A6B83 /* GeoPad-Portrait@2x~ipad.png in Resources */,
+				4738F3FF172FC378007A6B83 /* GeoPad-Landscape@2x~ipad.png in Resources */,
+				4738F403172FC7FA007A6B83 /* GeoPad-Landscape~ipad.png in Resources */,
+				4738F405172FD193007A6B83 /* blackbutton.png in Resources */,
+				476342791737907B0070F4C7 /* checkbox_checked.png in Resources */,
+				4763427A1737907B0070F4C7 /* checkbox_unchecked.png in Resources */,
+				4763427B1737907B0070F4C7 /* CircleArrowDown_sml.png in Resources */,
+				4763427C1737907B0070F4C7 /* CircleArrowRight_sml.png in Resources */,
+				476342821737907B0070F4C7 /* TOCViewController.xib in Resources */,
+				477AB8CA173BBE2300ED8E53 /* RootTableViewController.xib in Resources */,
+				47102EDE17409C76004509C8 /* DescriptionViewController.xib in Resources */,
+				477D6AB11741EED100862EBC /* OverleyViewController.xib in Resources */,
+				47627C38174222E700545EC1 /* GeoPadLogo72.png in Resources */,
+				47384BEC1743803100DB2730 /* GeoPadLogo.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5B882E71559DFA900E635C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5B882FC1559DFA900E635C5 /* main.m in Sources */,
+				C5B883001559DFA900E635C5 /* AppDelegate.m in Sources */,
+				C5B883031559DFA900E635C5 /* RootViewController.m in Sources */,
+				C5B88330155AFCE000E635C5 /* PortalExplorer.m in Sources */,
+				C5B88364155C679F00E635C5 /* OrganizationDetailsViewController.m in Sources */,
+				C52B06B3155DCB0C00AC0E87 /* IconDownloader.m in Sources */,
+				C52B06B9155DD0C100AC0E87 /* LoadingTableViewCell.m in Sources */,
+				C5D52215156430B00074C43A /* ItemTableViewCell.m in Sources */,
+				C5D5221A1565752E0074C43A /* GroupTableViewCell.m in Sources */,
+				C5D522201565A8110074C43A /* FilteredItemsViewController.m in Sources */,
+				C5D522331565BE3C0074C43A /* SearchViewController.m in Sources */,
+				C5D52241156C580A0074C43A /* LoginViewController.m in Sources */,
+				C5D5224915780B610074C43A /* LoadingView.m in Sources */,
+				C5D5224E157828380074C43A /* UserGroupsViewController.m in Sources */,
+				C5D52253157928FA0074C43A /* UserContentViewController.m in Sources */,
+				C5D5225A157970310074C43A /* FolderTableViewCell.m in Sources */,
+				C5D52269157D3A3F0074C43A /* ContentViewControllerBase.m in Sources */,
+				C5D5226E157D92170074C43A /* FolderItemsViewController.m in Sources */,
+				47EEDE6C16BB80C100E14733 /* BasemapsViewController.m in Sources */,
+				4709EBFB16BF5A4A00CF9D97 /* ResultsViewController.m in Sources */,
+				4709EC0216BF69C600CF9D97 /* WebMercatorUtil.m in Sources */,
+				4764913316C1EEDB0021B0B1 /* ToolsViewController.m in Sources */,
+				4764914016C258870021B0B1 /* SmoothedBIView.m in Sources */,
+				4764934816CC7EAC0021B0B1 /* ActivityAlertView.m in Sources */,
+				473DDBF916EE1BC400A2BBFD /* OverleyViewController.m in Sources */,
+				473DDBFB16EE1BC400A2BBFD /* ViewController.m in Sources */,
+				4738F3F9172F965F007A6B83 /* AboutGeoPad.m in Sources */,
+				4763427D1737907B0070F4C7 /* LayerInfo.m in Sources */,
+				4763427E1737907B0070F4C7 /* LayerInfoCell.m in Sources */,
+				4763427F1737907B0070F4C7 /* LayerLegendCell.m in Sources */,
+				476342811737907B0070F4C7 /* TOCViewController.m in Sources */,
+				477AB8C9173BBE2300ED8E53 /* RootTableViewController.m in Sources */,
+				47102EDD17409C76004509C8 /* DescriptionViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C5B882F81559DFA900E635C5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5B882F91559DFA900E635C5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5B8830A1559DFA900E635C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = armv7;
+			};
+			name = Debug;
+		};
+		C5B8830B1559DFA900E635C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = armv7;
+			};
+			name = Release;
+		};
+		C5B8830D1559DFA900E635C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "$HOME/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoPad/GeoPad-Prefix.pch";
+				INFOPLIST_FILE = "GeoPad/GeoPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = GeoPad;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C5B8830E1559DFA900E635C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				FRAMEWORK_SEARCH_PATHS = "$HOME/Library/SDKs/ArcGIS/iOS/**";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GeoPad/GeoPad-Prefix.pch";
+				INFOPLIST_FILE = "GeoPad/GeoPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+					"-framework",
+					ArcGIS,
+				);
+				PRODUCT_NAME = GeoPad;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5B882E51559DFA900E635C5 /* Build configuration list for PBXProject "GeoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B8830A1559DFA900E635C5 /* Debug */,
+				C5B8830B1559DFA900E635C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5B8830C1559DFA900E635C5 /* Build configuration list for PBXNativeTarget "GeoPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5B8830D1559DFA900E635C5 /* Debug */,
+				C5B8830E1559DFA900E635C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5B882E21559DFA900E635C5 /* Project object */;
+}
